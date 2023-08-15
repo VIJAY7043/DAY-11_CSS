@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0%;
+}
+#overflow-main{
+    height: 100px;
+    width: 500px;
+    border: 1px solid red;
+    background-color: aqua;
+    /* All content will be visible even after the size change */
+    /* overflow: visible; */
+     /* The content will be hidden from the display screen */
+     /* overflow: hidden; */
+     /* An extra scrollable size based on our size limits */
+     overflow: scroll;
+     /* based on x and y direction we can  define the overflow property */
+     /* overflow-x: ;
+     overflow-y: ; */
+     /* it will detect and give a suitable overflow scroll type */
+     /* overflow: scroll; */
+     font-family: 'Borel', cursive;
+}  
+@media only screen and (max-width:1200px){
+    body{
+        background-color: brown;
+    }
+    #overflow-main{
+        background-color: blueviolet;
+        
+    }
+}
+   
+
+
